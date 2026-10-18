@@ -23,7 +23,7 @@ function updateCountdown() {
   const label = document.getElementById('countdown-label');
   if (now >= eventStart) {
     timer.hidden = true; timer.style.display = 'none';
-    label.textContent = now < eventEnd ? 'Happening now · Visit Booth #908' : 'Thank you for joining us at WISPAPALOOZA';
+    label.textContent = now < eventEnd ? 'Happening now · Visit Booth TBD' : 'Thank you for joining us at WISPAPALOOZA';
     document.querySelector('.countdown-note').hidden = true;
     return;
   }
