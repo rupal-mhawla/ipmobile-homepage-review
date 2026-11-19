@@ -1,0 +1,15 @@
+
+.preview-review-note{display:flex;align-items:center;justify-content:center;gap:18px;background:#edf3f9;color:#405775;padding:8px 20px;font:400 10px/1.2 Arial,Helvetica,sans-serif;box-sizing:border-box}
+.preview-review-note strong{font-size:10px;letter-spacing:.1em}
+header.preview-header{height:auto;min-height:0;padding:0;position:sticky;top:0;z-index:100;display:block;color:#fff;background:linear-gradient(110deg,#086ca9,#0b2348 60%,#841251);box-sizing:border-box}
+.preview-header .preview-bar{width:100%;max-width:1200px;min-height:82px;margin:0 auto;padding:0 30px;display:flex;align-items:center;justify-content:space-between;gap:30px;box-sizing:border-box}
+.preview-header .preview-brand{display:block;flex-shrink:0;border:0;padding:0;margin:0}
+.preview-header .preview-brand img{display:block;width:172px;max-width:100%;height:auto;filter:brightness(0) invert(1)}
+.preview-header .preview-nav{display:flex;flex-wrap:nowrap;align-items:center;gap:28px;margin:0;padding:0;font:700 13px/1.5 Arial,Helvetica,sans-serif}
+.preview-header .preview-nav a{padding:8px 0;margin:0;border:0;color:white;text-decoration:none;white-space:nowrap}
+.preview-header .preview-nav a:hover{color:#ffc3df}
+.preview-header .preview-call{display:flex;align-items:center;gap:30px;border:1px solid #ffffff65;padding:12px 18px;margin:0;border-radius:30px;color:#fff;text-decoration:none;white-space:nowrap;font:700 13px/1.5 Arial,Helvetica,sans-serif;box-sizing:border-box}
+.preview-header a:focus-visible{outline:3px solid #ff91c5;outline-offset:4px}
+html{scroll-padding-top:105px}
+@media(max-width:1000px){.preview-header .preview-nav{gap:16px;font-size:11px}.preview-header .preview-bar{gap:22px}}
+@media(max-width:760px){.preview-header .preview-bar{padding:15px 22px;min-height:78px;flex-wrap:wrap;gap:14px}.preview-header .preview-brand img{width:145px}.preview-header .preview-nav{order:3;width:100%;flex-wrap:wrap;justify-content:flex-start;gap:5px 18px;font-size:10px}.preview-header .preview-nav a{padding:3px 0}.preview-header .preview-call{font-size:11px;gap:16px;padding:10px 14px}.preview-review-note{gap:10px;font-size:9px}.preview-review-note strong{font-size:9px}html{scroll-padding-top:155px}}
